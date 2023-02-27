@@ -1,0 +1,103 @@
+*,
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+section {
+    background-image: url('/img/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxLogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.boxLogin h1 {
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+
+.boxLogin h2 {
+    color: white;
+}
+
+form {
+    border: 1px solid white;
+    background-attachment: fixed;
+    background: inherit;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    width: 400px;
+    height: 500px;
+}
+
+.boxLogin input {
+    background-color: aliceblue;
+    border: 0;
+    margin-top: 20px;
+    text-align: center;
+    width: 310px;
+    height: 35px;
+}
+
+.boxLogin input:focus {
+    background-color: rgb(189, 186, 186);
+    outline: none;
+}
+
+.boxLogin button {
+    border: 0;
+    background-color: greenyellow;
+    color: white;
+    margin-top: 30px;
+    width: 310px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.boxLogin button:hover {
+    background-color: rgb(109, 162, 29);
+}
+
+.boxLogin p {
+    color: white;
+    margin-top: 30px;
+}
+
+.boxLogin a {
+    text-decoration: none;
+    color: cyan;
+    font-weight: 900;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 15px;
+}
+
+.navbar img {
+    width: 60px;
+}
